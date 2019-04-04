@@ -1,8 +1,6 @@
-package com.ioteg.exprlang.ast;
+package com.ioteg.exprlang;
 
 import java.util.Map;
-
-import com.ioteg.exprlang.Token;
 
 /**
  * <p>BinaryExpressionAST class.</p>
@@ -10,7 +8,7 @@ import com.ioteg.exprlang.Token;
  * @author antonio
  * @version $Id: $Id
  */
-public class BinaryExpressionAST implements ExpressionAST {
+class BinaryExpressionAST implements ExpressionAST {
 	private Token operator;
 	private ExpressionAST lhs;
 	private ExpressionAST rhs;
@@ -19,8 +17,8 @@ public class BinaryExpressionAST implements ExpressionAST {
 	 * <p>Constructor for BinaryExpressionAST.</p>
 	 *
 	 * @param operator a {@link com.ioteg.exprlang.Token} object.
-	 * @param lhs a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
-	 * @param rhs a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
+	 * @param lhs a {@link com.ioteg.exprlang.ExpressionAST} object.
+	 * @param rhs a {@link com.ioteg.exprlang.ExpressionAST} object.
 	 */
 	public BinaryExpressionAST(Token operator, ExpressionAST lhs, ExpressionAST rhs) {
 		super();
@@ -41,7 +39,7 @@ public class BinaryExpressionAST implements ExpressionAST {
 	/**
 	 * <p>Getter for the field <code>lhs</code>.</p>
 	 *
-	 * @return a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
+	 * @return a {@link com.ioteg.exprlang.ExpressionAST} object.
 	 */
 	public ExpressionAST getLhs() {
 		return lhs;
@@ -50,7 +48,7 @@ public class BinaryExpressionAST implements ExpressionAST {
 	/**
 	 * <p>Getter for the field <code>rhs</code>.</p>
 	 *
-	 * @return a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
+	 * @return a {@link com.ioteg.exprlang.ExpressionAST} object.
 	 */
 	public ExpressionAST getRhs() {
 		return rhs;

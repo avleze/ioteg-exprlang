@@ -5,7 +5,7 @@
 
 	<groupId>com.ioteg</groupId>
 	<artifactId>ioteg-exprlang</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>ioteg-exprlang</name>
@@ -57,4 +57,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	<scm>
+		<developerConnection>Antonio Vélez Estévez</developerConnection>
+		<url>https://github.com/avleze/ioteg-exprlang</url>
+	</scm>
 </project>

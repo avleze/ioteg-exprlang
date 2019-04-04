@@ -1,4 +1,4 @@
-package com.ioteg.exprlang.ast;
+package com.ioteg.exprlang;
 
 import java.util.Map;
 
@@ -8,7 +8,7 @@ import java.util.Map;
  * @author antonio
  * @version $Id: $Id
  */
-public class VariableExpressionAST implements ExpressionAST{
+class VariableExpressionAST implements ExpressionAST{
 	private String name;
 	
 	/**

@@ -10,7 +10,7 @@ import java.util.Scanner;
  * @author antonio
  * @version $Id: $Id
  */
-public class ExprLexer {
+class ExprLexer {
 
 	private Scanner inputReader;
 	private Character lastChar;

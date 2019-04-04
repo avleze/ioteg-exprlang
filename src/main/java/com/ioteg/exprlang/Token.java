@@ -6,7 +6,7 @@ package com.ioteg.exprlang;
  * @author antonio
  * @version $Id: $Id
  */
-public enum Token {
+enum Token {
 	TOK_EOF,
 	TOK_OP_MUL,
 	TOK_OP_DIV,

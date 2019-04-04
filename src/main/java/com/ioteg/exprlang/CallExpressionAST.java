@@ -1,4 +1,4 @@
-package com.ioteg.exprlang.ast;
+package com.ioteg.exprlang;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
  * @author antonio
  * @version $Id: $Id
  */
-public class CallExpressionAST implements ExpressionAST{
+class CallExpressionAST implements ExpressionAST{
 	private String fnName;
 	private List<ExpressionAST> args;
 	

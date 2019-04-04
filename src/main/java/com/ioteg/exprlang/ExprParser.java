@@ -7,13 +7,6 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
-import com.ioteg.exprlang.ast.BinaryExpressionAST;
-import com.ioteg.exprlang.ast.CallExpressionAST;
-import com.ioteg.exprlang.ast.ExpressionAST;
-import com.ioteg.exprlang.ast.NumberExpressionAST;
-import com.ioteg.exprlang.ast.UnaryExpressionAST;
-import com.ioteg.exprlang.ast.VariableExpressionAST;
-
 /**
  * <p>ExprParser class.</p>
  *
@@ -49,7 +42,7 @@ public class ExprParser {
 	 * <p>parse.</p>
 	 *
 	 * @param str a {@link java.lang.String} object.
-	 * @return a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
+	 * @return a {@link com.ioteg.exprlang.ExpressionAST} object.
 	 * @throws com.ioteg.exprlang.ExprParser.ExprLangParsingException if any.
 	 */
 	public ExpressionAST parse(String str) throws ExprLangParsingException  {

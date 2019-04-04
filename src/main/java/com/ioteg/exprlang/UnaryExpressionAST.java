@@ -1,8 +1,6 @@
-package com.ioteg.exprlang.ast;
+package com.ioteg.exprlang;
 
 import java.util.Map;
-
-import com.ioteg.exprlang.Token;
 
 /**
  * <p>UnaryExpressionAST class.</p>
@@ -10,14 +8,14 @@ import com.ioteg.exprlang.Token;
  * @author antonio
  * @version $Id: $Id
  */
-public class UnaryExpressionAST implements ExpressionAST {
+class UnaryExpressionAST implements ExpressionAST {
 	private ExpressionAST expression;
 	private Token unaryOp;
 	
 	/**
 	 * <p>Constructor for UnaryExpressionAST.</p>
 	 *
-	 * @param expr a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
+	 * @param expr a {@link com.ioteg.exprlang.ExpressionAST} object.
 	 * @param unaryOp a {@link com.ioteg.exprlang.Token} object.
 	 */
 	public UnaryExpressionAST(ExpressionAST expr, Token unaryOp) {
@@ -40,7 +38,7 @@ public class UnaryExpressionAST implements ExpressionAST {
 	/**
 	 * <p>Getter for the field <code>expression</code>.</p>
 	 *
-	 * @return a {@link com.ioteg.exprlang.ast.ExpressionAST} object.
+	 * @return a {@link com.ioteg.exprlang.ExpressionAST} object.
 	 */
 	public ExpressionAST getExpression() {
 		return expression;

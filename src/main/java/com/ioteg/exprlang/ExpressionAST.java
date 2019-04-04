@@ -1,4 +1,4 @@
-package com.ioteg.exprlang.ast;
+package com.ioteg.exprlang;
 
 import java.util.Map;
 
