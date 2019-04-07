@@ -41,8 +41,8 @@ public class ExprParser {
 	/**
 	 * <p>parse.</p>
 	 *
-	 * @param str a {@link java.lang.String} object.
-	 * @return a {@link com.ioteg.exprlang.ExpressionAST} object.
+	 * @param str a {@link java.lang.String} string to parse that accomplish the syntax of ExprLang.
+	 * @return a {@link com.ioteg.exprlang.ExpressionAST} object which can be evaluated to obtain a result.
 	 * @throws com.ioteg.exprlang.ExprParser.ExprLangParsingException if any.
 	 */
 	public ExpressionAST parse(String str) throws ExprLangParsingException  {

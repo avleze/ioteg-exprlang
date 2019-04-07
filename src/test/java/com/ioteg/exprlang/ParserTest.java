@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.greaterThanOrEqualTo;
 import static org.hamcrest.Matchers.lessThanOrEqualTo;
 import static org.hamcrest.Matchers.instanceOf;
 
-public class ParserTest {
+class ParserTest {
 	@Test
 	public void testBinaryExpressions() throws IOException, ExprLangParsingException {
 		ExprParser parser = new ExprParser();

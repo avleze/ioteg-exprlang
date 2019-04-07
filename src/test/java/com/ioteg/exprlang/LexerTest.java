@@ -7,7 +7,7 @@ import java.io.IOException;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.Matchers.equalTo;
 
-public class LexerTest {
+class LexerTest {
 	
 	@Test
 	public void testArithmeticOperators() throws IOException {
